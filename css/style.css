@@ -1,0 +1,22 @@
+h1 {
+  color: #eee;
+}
+
+p {
+  color: #aaa;
+  font-size: 0.875rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a:not(:first-child) {
+  margin-left: 1rem;
+}
+
+nav a:hover {
+  color: #eee;
+}
